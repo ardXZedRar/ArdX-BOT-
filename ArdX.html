@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArdX BOT</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="bot-info">
+        <div class="bot-avatar">A</div>
+        <div>
+          <h1>ArdX BOT</h1>
+          <p>Online - Siap membantu 24/7</p>
+        </div>
+      </div>
+      <div class="status">
+        <span class="online">●</span> Connected
+      </div>
+    </div>
+
+    <div class="chat-container" id="chatContainer"></div>
+
+    <div class="input-area">
+      <input type="text" id="userInput" placeholder="Ketik pesan atau /start..." autocomplete="off">
+      <button id="sendBtn"><i class="fas fa-paper-plane"></i></button>
+    </div>
+  </div>
+
+  <input type="file" id="imageUpload" accept="image/*" style="display: none;">
+
+  <script src="js/script.js"></script>
+</body>
+</html>
